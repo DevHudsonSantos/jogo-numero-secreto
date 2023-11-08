@@ -15,7 +15,7 @@ function msgInicial(){
 function mudarTextoHTML (tag, texto){
     var dados = document.querySelector(tag);
         dados.textContent = texto;
-        responsiveVoice.speak (texto, 'Brazilian Portuguese Female', {rate:1.3});
+        responsiveVoice.speak (texto, 'Brazilian Portuguese Female', {rate:1.25});
 }
 
 function gerarNumAleatorio (){
